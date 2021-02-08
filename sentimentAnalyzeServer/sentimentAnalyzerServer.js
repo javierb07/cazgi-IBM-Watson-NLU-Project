@@ -47,7 +47,7 @@ app.get("/url/emotion", (req,res) => {
 });
 
 app.get("/url/sentiment", (req,res) => {
-    const analyzeParamsEmotion = {
+    const analyzeParamsSentiment = {
         'url': req.query.url,
         'features': {
             'sentiment': {}
